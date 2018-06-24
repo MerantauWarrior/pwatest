@@ -51,7 +51,9 @@ var filesToCache = [
   '/pwatest/img/weather-sunny.png',
   '/pwatest/img/week-next.png',
   '/pwatest/img/week-prev.png',
-  '/pwatest/slick/'
+  '/pwatest/slick/slick.css',
+  '/pwatest/slick/slick-theme.css',
+  '/pwatest/slick/slick.min.js'
 ];
 
 self.addEventListener('install', function(e) {
