@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 	
 	if('serviceWorker' in navigator) {
-		navigator.serviceWorker.register('../../tech/service-worker.js')
+		navigator.serviceWorker.register('/../../tech/service-worker.js')
 			.then(function() {
 						console.log('Service Worker Registered');
 			});
