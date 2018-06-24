@@ -44,7 +44,8 @@ var filesToCache = [
   '/pwatest/img/tomorrow-arrow.png',
   '/pwatest/img/weather-sunny.png',
   '/pwatest/img/week-next.png',
-  '/pwatest/img/week-prev.png'
+  '/pwatest/img/week-prev.png',
+  '/pwatest/slick/'
 ];
 
 self.addEventListener('install', function(e) {
