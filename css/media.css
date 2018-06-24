@@ -1,0 +1,122 @@
+@media (min-width: 1921px) and (max-width: 2560px){
+	.minibox{flex: 1 0 20%;}
+}
+@media (min-width: 1025px) and (max-width: 1440px){
+	.miniboxes .box__header{text-align: center;}
+	.miniboxes .box__icon{margin-right: 0;margin-bottom: 10px;}
+	.miniboxes .box__title{display: block;}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	.minibox{
+		flex: 1 0 50%;
+	}
+}
+@media (min-width: 320px) and (max-width: 767px){
+	.wrapper{padding-bottom: 0;}
+	.container{
+		padding: 0 15px;
+	}
+	.minibox{flex: 1 0 50%;margin-bottom: 0;}
+	.minibox__inner{margin: 0;}
+	.header-weather {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+	}
+	.header-day {
+    float: none;
+    text-align: center;
+    margin-bottom: 25px;
+	}
+	.header-nav {
+    float: none;
+		text-align: center;
+	}
+	.box, .minibox{padding: 15px;}
+	.minibox{width: 100%;}
+	.medications-item__period, .menu-item__period, .medications-item__pills{margin-left: 0;}
+	.menu-item__dish, .menu-item__components{margin-left: 30px;}
+	.medications-item__pills-status {
+    top: 0;
+    margin-top: 0;
+	}
+	.help{position: relative;text-align: center;}
+	.activity__time, .events__time{text-align: left;}
+	.events__info, .activity__info{padding-left: 0;}
+	.activity__items, .events__items {margin-top: 20px;}
+	.activity__item, .events__item {margin-bottom: 25px;}
+	.help-nurse,.help-things{
+		float: none;
+		display: inline-block;
+	}
+	.help-things{
+		width: 290px;
+		margin-top: 25px;
+	}
+	.modal-nurse{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		width: 90%;
+		height: auto;
+		padding: 15px;
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		border-radius: 30px;
+	}
+	.week-item, .week-item__info-item{padding: 15px;}
+	.week-item__info{margin-left: 0;}
+	.week-item__day:after{display: none;}
+	.week-item__info--remindings{padding-left: 60px;}
+	.week-item__day-date{display: inline-block;margin-left: 5px;margin-top: 0;margin-bottom: 10px;}
+	.week-item__day{width: auto;}
+	.week-nav__btn{
+		width: 52px;
+		height: 52px;
+		line-height: 62px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
+	.medications-item__time, .medications-item__period, .menu-item__dish-weight, .menu-item__dish-name, .activity__time, .events__time{float: none;}
+	.menu-item__dish-bdr, .activity__time:after, .activity__items:before, .events__time:after, .events__items:before{display: none;}
+	.things-recent {padding: 0;}
+	.things-recent__name{
+		display: block;
+		font-size: 25px;		
+	}
+	.things-items {
+    justify-content: center;
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+	.header-weather{float: right;margin-top: 0;}
+	.menu-item__dish-bdr, .activity__time:after, .activity__items:before, .events__time:after, .events__items:before{display: none;}
+	.activity__time, .events__time{float: none;}
+	.modal{
+		overflow-y: auto;
+	}
+	.modal-nurse{
+		top: 0;
+		left: 50%;
+		-webkit-transform: translate(-50%, 0);
+		-moz-transform: translate(-50%, 0);
+		-ms-transform: translate(-50%, 0);
+		-o-transform: translate(-50%, 0);
+		transform: translate(-50%, 0);
+		margin: 30px 0;
+	}
+	.week-item__info{max-width: 100%;}
+	.week-nav__text {
+    margin-top: 10px;
+    font-size: 24px;
+	}
+	.things-items {
+    justify-content: space-around;
+	}
+}
