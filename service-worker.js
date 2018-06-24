@@ -35,7 +35,7 @@ var filesToCache = [
   '/pwatest/img/remindings-3.png',
   '/pwatest/img/remindings-icon.png',
   '/pwatest/img/things.png',
-  '/pwatest/pwatest/img/things-1.png',
+  '/pwatest/img/things-1.png',
   '/pwatest/img/things-2.png',
   '/pwatest/img/things-3.png',
   '/pwatest/img/things-4.png',
