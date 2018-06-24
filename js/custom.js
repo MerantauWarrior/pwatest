@@ -1,11 +1,17 @@
 $( document ).ready(function() {
 	
 	if('serviceWorker' in navigator) {
-		navigator.serviceWorker.register('../../pwatest/service-worker.js')
+		navigator.serviceWorker.register('../../pwatest/service-worker.js', {scope: '/pwatest/'})
 			.then(function() {
 						console.log('Service Worker Registered');
 			});
 	}
+	window.addEventListener('beforeinstallprompt', function(event) {
+		console.log('beforeinstallprompt fired');
+		event.preventDefault();
+		deferredPrompt = event;
+		return false;
+	});
   
 	/*Nurse Call*/
 	$('.help-nurse').click(function(e){
