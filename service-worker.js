@@ -2,6 +2,12 @@ var cacheName = 'sgPWA-1';
 var filesToCache = [
   '/pwatest/',
   '/pwatest/index.html',
+  '/pwatest/medications.html',
+  '/pwatest/events.html',
+  '/pwatest/day.html',
+  '/pwatest/week.html',
+  '/pwatest/menu.html',
+  '/pwatest/activity.html',
   '/pwatest/js/jquery-3.3.1.min.js',
   '/pwatest/js/custom.js',
   '/pwatest/css/style.css',
