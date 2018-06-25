@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 	
 	if('serviceWorker' in navigator) {
-		navigator.serviceWorker.register('../../pwatest/service-worker.js', {scope: '/pwatest/'})
+		navigator.serviceWorker.register('../../pwatest/service-worker.js', {scope: '../../pwatest/'})
 			.then(function() {
 						console.log('Service Worker Registered');
 			});
