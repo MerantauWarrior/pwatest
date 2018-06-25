@@ -12,7 +12,7 @@ $( document ).ready(function() {
 		deferredPrompt = event;
 		return false;
 	});
-  
+		
 	/*Nurse Call*/
 	$('.help-nurse').click(function(e){
 		e.preventDefault();
